@@ -2,13 +2,13 @@ package main
 
 import "fmt"
 
-var k float64
-var ebulicaoC int = 100
+var c float64
+var ebulicaok int = 373
 
 func main() {
 
 
-	k = float64(ebulicaoC + 273)
+	c = float64(ebulicaok - 273)
 
-	fmt.Printf("O ponto de ebulição da água é %d° Celsius que corresponde à %g Kelvin", ebulicaoC, k)
+	fmt.Printf("O ponto de ebulição da água é %d em Kelvin que corresponde à %g° Celsius", ebulicaok, c)
 }
